@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deco My Tree</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Deco My Tree</h1>
+        <div id="create-tree">
+            <input type="text" id="tree-name" placeholder="Enter your tree name">
+            <button id="create-tree-btn">Create Tree</button>
+        </div>
+        <div id="tree-section" style="display: none;">
+            <h2 id="tree-name-display"></h2>
+            <div id="tree"></div>
+            <input type="text" id="decoration" placeholder="Add a decoration">
+            <button id="add-decoration-btn">Add Decoration</button>
+            <input type="text" id="message" placeholder="Leave a message">
+            <button id="add-message-btn">Add Message</button>
+            <h3>Messages</h3>
+            <ul id="messages-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

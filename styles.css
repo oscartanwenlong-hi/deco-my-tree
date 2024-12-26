@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+#tree {
+    width: 300px;
+    height: 400px;
+    margin: 20px auto;
+    background-color: green;
+    border: 2px solid #000;
+    position: relative;
+}
+
+.decoration {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+}
